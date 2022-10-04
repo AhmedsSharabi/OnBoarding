@@ -11,6 +11,11 @@
 		166D959E28E9B0ED00FA8464 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166D959D28E9B0ED00FA8464 /* ContentView.swift */; };
 		166D95A028E9B0EF00FA8464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166D959F28E9B0EF00FA8464 /* Assets.xcassets */; };
 		166D95A328E9B0EF00FA8464 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166D95A228E9B0EF00FA8464 /* Preview Assets.xcassets */; };
+		166D95AE28E9CF2C00FA8464 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166D95AC28E9CF2C00FA8464 /* Quicksand-Regular.ttf */; };
+		166D95AF28E9CF2C00FA8464 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166D95AD28E9CF2C00FA8464 /* Quicksand-Bold.ttf */; };
+		166D95B228EAF6B300FA8464 /* Second Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166D95B128EAF6B300FA8464 /* Second Screen.swift */; };
+		166D95B428EAFCB100FA8464 /* Third Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166D95B328EAFCB100FA8464 /* Third Screen.swift */; };
+		167AFC8428EC5E170085D18E /* CloudAnimationExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AFC8328EC5E170085D18E /* CloudAnimationExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		166D959D28E9B0ED00FA8464 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		166D959F28E9B0EF00FA8464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		166D95A228E9B0EF00FA8464 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		166D95AC28E9CF2C00FA8464 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		166D95AD28E9CF2C00FA8464 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		166D95B128EAF6B300FA8464 /* Second Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Second Screen.swift"; sourceTree = "<group>"; };
+		166D95B328EAFCB100FA8464 /* Third Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Third Screen.swift"; sourceTree = "<group>"; };
+		166D95B528EB06F600FA8464 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		167AFC8328EC5E170085D18E /* CloudAnimationExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnimationExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +46,7 @@
 		166D958F28E9B0ED00FA8464 = {
 			isa = PBXGroup;
 			children = (
+				166D95B028E9CF4000FA8464 /* Custom Fonts */,
 				166D959A28E9B0ED00FA8464 /* OnboardingTest */,
 				166D959928E9B0ED00FA8464 /* Products */,
 			);
@@ -53,6 +65,9 @@
 			children = (
 				166D959B28E9B0ED00FA8464 /* OnboardingTestApp.swift */,
 				166D959D28E9B0ED00FA8464 /* ContentView.swift */,
+				167AFC8328EC5E170085D18E /* CloudAnimationExtention.swift */,
+				166D95B128EAF6B300FA8464 /* Second Screen.swift */,
+				166D95B328EAFCB100FA8464 /* Third Screen.swift */,
 				166D959F28E9B0EF00FA8464 /* Assets.xcassets */,
 				166D95A128E9B0EF00FA8464 /* Preview Content */,
 			);
@@ -65,6 +80,16 @@
 				166D95A228E9B0EF00FA8464 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		166D95B028E9CF4000FA8464 /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				166D95AC28E9CF2C00FA8464 /* Quicksand-Regular.ttf */,
+				166D95AD28E9CF2C00FA8464 /* Quicksand-Bold.ttf */,
+				166D95B528EB06F600FA8464 /* Quicksand-Medium.ttf */,
+			);
+			path = "Custom Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				166D95A328E9B0EF00FA8464 /* Preview Assets.xcassets in Resources */,
+				166D95AE28E9CF2C00FA8464 /* Quicksand-Regular.ttf in Resources */,
 				166D95A028E9B0EF00FA8464 /* Assets.xcassets in Resources */,
+				166D95AF28E9CF2C00FA8464 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167AFC8428EC5E170085D18E /* CloudAnimationExtention.swift in Sources */,
+				166D95B428EAFCB100FA8464 /* Third Screen.swift in Sources */,
 				166D959E28E9B0ED00FA8464 /* ContentView.swift in Sources */,
+				166D95B228EAF6B300FA8464 /* Second Screen.swift in Sources */,
 				166D959C28E9B0ED00FA8464 /* OnboardingTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +299,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OnboardingTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnboardingTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +328,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OnboardingTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnboardingTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
